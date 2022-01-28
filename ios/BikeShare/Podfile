@@ -1,0 +1,12 @@
+
+target 'BikeShare' do
+    pod 'common', :path => '../../common'
+    pod "SwiftUIRefresh"
+    pod 'KMPNativeCoroutinesAsync', '0.9.0'
+end
+
+
+target 'BikeShareWidgetExtension' do
+    pod 'common', :path => '../../common'
+    pod 'KMPNativeCoroutinesAsync', '0.9.0'
+end
